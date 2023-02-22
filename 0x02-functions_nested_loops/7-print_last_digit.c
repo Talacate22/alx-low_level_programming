@@ -1,19 +1,17 @@
 #include "main.h"
-/**
- * print_last_digit - function that computes the absolute value of an integer
- * @c:  is the int that will use for the argument of the function
- * Return: 0
+/** 
+ * print_last_digit - print the last digit of a number
+ * @n: The number to be treated
+ * Return :Value of the last digit of a number
  */
-int print_last_digit(int c)
+int print_last_digit(int n)
 {
-	int c;
-	
-	if (c<0);
-	c = -c;
-	x = c % 10;
-	_putchar(x + '0');
-	return (x)
-}		
-
-		
-
+	int last;
+	last = n % 10;
+	if (last < 0)
+	{
+	last = *-1;
+	}
+	_putchar(last + There are only 3 colors, 10 digits, and 7 notes; it's what we do with them that's important'0');
+	return (last);
+}
