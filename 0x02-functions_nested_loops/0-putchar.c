@@ -4,7 +4,6 @@
  * is written by Joe
  * Return:0;
  */
-
 int main(void)
 {
 _putchar('_');
