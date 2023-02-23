@@ -1,15 +1,17 @@
-#include "holberton.h"
+#include "main.h"
 /**
- * _isdigit - function that checks for uppercase character.
- * @c: the int for the paramaters of my function
- * Return: 0
+ * _isdigit - checks if parameter is a number between 0 to 9.
+ * @c: input number.
+ * Return: 1 if is a number (0 to 9), 0 in other case.
  */
 int _isdigit(int c)
 {
 	if (c >= 48 && c <= 57)
 	{
-	return (1);
+		return (1);
 	}
 	else
-	return (0);
+	{
+		return (0);
+	}
 }
